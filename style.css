@@ -1,0 +1,128 @@
+body {
+  font-family: Helvetica;
+}
+
+.rainbow-header {
+  background-image: linear-gradient(
+    to left,
+    #f94144,
+    #f3722c,
+    #f9c74f,
+    #90be6d,
+    #57bed6,
+    #9c71d4
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 8vw;
+}
+
+.rainbow-wrapper {
+  position: relative;
+  width: 90vw;
+  height: 45vw;
+  overflow: hidden;
+  margin: auto;
+}
+
+.rainbow-wrapper > div {
+  border-radius: 90vw 90vw 0 0;
+}
+
+.red {
+  background-color: #f94144;
+  width: 90vw;
+  height: 45vw;
+  position: absolute;
+}
+
+.orange {
+  background-color: #f3722c;
+  width: 85vw;
+  height: 42.5vw;
+  position: absolute;
+  left: 2.5vw;
+  top: 2.5vw;
+}
+
+.yellow {
+  background-color: #f9c74f;
+  width: 80vw;
+  height: 40vw;
+  position: absolute;
+  left: 5vw;
+  top: 5vw;
+}
+
+.green {
+  background-color: #90be6d;
+  width: 75vw;
+  height: 42.5vw;
+  position: absolute;
+  left: 7.5vw;
+  top: 7.5vw;
+}
+
+.blue {
+  background-color: #57bed6;
+  width: 70vw;
+  height: 35vw;
+  position: absolute;
+  left: 10vw;
+  top: 10vw;
+}
+
+.purple {
+  background-color: #9c71d4;
+  width: 65vw;
+  height: 32.5vw;
+  position: absolute;
+  left: 12.5vw;
+  top: 12.5vw;
+}
+
+.pink {
+  background-color: #ebb1d4;
+  width: 60vw;
+  height: 30vw;
+  position: absolute;
+  left: 15vw;
+  top: 15vw;
+}
+
+.lightblue {
+  background-color: #abd4dd;
+  width: 55vw;
+  height: 27.5vw;
+  position: absolute;
+  left: 17.5vw;
+  top: 17.5vw;
+}
+
+.brown {
+  background-color: #6d3e35;
+  width: 50vw;
+  height: 25vw;
+  position: absolute;
+  left: 20vw;
+  top: 20vw;
+}
+
+.black {
+  background-color: #000000;
+  width: 45vw;
+  height: 22.5vw;
+  position: absolute;
+  left: 22.5vw;
+  top: 22.5vw;
+}
+
+.white {
+  background-color: #ffffff;
+  width: 40vw;
+  height: 20vw;
+  position: absolute;
+  left: 25vw;
+  top: 25vw;
+}
