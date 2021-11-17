@@ -1,5 +1,6 @@
 body {
   font-family: Helvetica;
+  transition: all 0.5s;
 }
 
 .rainbow-header {
@@ -30,7 +31,9 @@ body {
   border-radius: 90vw 90vw 0 0;
 }
 
-.red {
+/*Colors for the static version*/
+
+/* .red {
   background-color: #f94144;
   width: 90vw;
   height: 45vw;
@@ -125,4 +128,4 @@ body {
   position: absolute;
   left: 25vw;
   top: 25vw;
-}
+} */
