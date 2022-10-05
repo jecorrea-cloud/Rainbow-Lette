@@ -16,4 +16,4 @@ const colorValues = [
   "E",
   "F",
 ];
-const PALLETTE_SIZE = 5;
+const PALLETTE_SIZE = 6;
